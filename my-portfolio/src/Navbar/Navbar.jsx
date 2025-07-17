@@ -93,7 +93,7 @@ const Navbar = ({ onProjectsClick }) => {
 
           {/* Mobile Nav */}
           {menuOpen && (
-            <div className="flex  gap-3 items-baseline-last pl-[200px] pb-9 lg:hidden  text-lg font-bold ">
+            <div className="flex  gap-3 items-baseline-last pl-[100px] pb-9 lg:hidden  text-lg font-bold ">
               <Link
                 to="/"
                 onClick={() => {
