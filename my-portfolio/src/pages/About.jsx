@@ -14,28 +14,35 @@ const About = () => {
           <br /><br />
           I'm actively looking for <span className="font-semibold text-green-400">internships</span> or <span className="font-semibold text-green-400">junior frontend developer roles</span>, where I can contribute to real-world projects and continue growing as a developer.
         </p>
-        <education className= '' >
-          <h1 className='text-amber-50 text-3xl font-bold pt-9 pl-7'>My eduction</h1>
-          <div className='flex  col-end-3   pt-6  pr-22 '>
-            <div >
-            <p className=' text-blue-300'>Diploma  year(2023-2025) </p>
-            <p>Dimploma in c.s </p>
-            <p>college-p.a polytechnich collehe manglaore,karnataka</p>
-             </div>
-             <div>
-            <p className=' text-blue-300'>PUC  year(2022-2023) </p>
-            <p>puc in commerce  </p>
-            <p>college- G.p.u.c mudipu,karnataka </p>
-             </div>
-             <div>
-            <p className='text-blue-300'>SSLC year(2018-2021) </p>
-            <p>sslc in karnataka state board</p>
-            <p>k.p.s kanyana,karnataka</p>
-             </div>
-             
-             
-          </div>
-        </education>
+        <section className="px-4 py-10 bg-blue-950 text-white">
+  <h1 className="text-amber-50 text-3xl font-bold mb-8 pl-2 sm:pl-7">My Education</h1>
+  
+  <div className="flex flex-col md:flex-row gap-6 md:gap-10 md:justify-evenly">
+    
+    {/* Diploma */}
+    <div>
+      <p className="text-blue-300 font-medium">Diploma (2023–2025)</p>
+      <p>Diploma in Computer Science</p>
+      <p>P.A. Polytechnic College, Mangalore, Karnataka</p>
+    </div>
+
+    {/* PUC */}
+    <div>
+      <p className="text-blue-300 font-medium">PUC (2022–2023)</p>
+      <p>PUC in Commerce</p>
+      <p>G.P.U.C Mudipu, Karnataka</p>
+    </div>
+
+    {/* SSLC */}
+    <div>
+      <p className="text-blue-300 font-medium">SSLC (2018–2021)</p>
+      <p>SSLC – Karnataka State Board</p>
+      <p>K.P.S Kanyana, Karnataka</p>
+    </div>
+
+  </div>
+</section>
+
       </article>
     </section>
   );

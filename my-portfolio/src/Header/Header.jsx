@@ -56,6 +56,7 @@ useEffect(()=>{
           repeat={Infinity}
           className="text-3xl font-bold text-shadow-indigo-100"
         />
+
       <p className="text-lg md:text-xl mb-6  bg-gradient-to-r from-green-300 to-purple-600 bg-clip-text text-transparent">
         Hi, I'm Jithesh, a Full Stack Developer with a strong focus on building reliable and user-friendly web applications.
         I enjoy solving problems and bringing ideas to life through clean and efficient code.
@@ -63,14 +64,14 @@ useEffect(()=>{
         If you're hiring or open to collaboration, I'd love to connect!
       </p>
 
-      <div className="flex justify-center gap-4 mb-6">
-        <p
-          className="bg-green-700 border border-white  hover:bg-white hover:text-gray-900 py-2 px-6 rounded-full transition"
-        ><Link to="contactsof/"> Contact Me
-</Link>
-        </p>
-      </div>
-      <div className="flex justify-center gap-6 mt-4">
+
+    <div className="flex justify-center gap-4 mb-6">
+    <p className="bg-green-700 border border-white  hover:bg-white hover:text-gray-900 py-2 px-6 rounded-full transition">
+        <Link to="contactsof/"> Contact Me</Link>
+      </p>
+    </div>
+
+     <div className="flex justify-center gap-6 mt-4">
         <a href="https://github.com/JIITES" target="_blank" rel="noopener noreferrer">
           <img className="bg-amber-50 w-[40px] h-[40px] "src={githubIcon} alt="GitHub"  />
         </a>
@@ -81,7 +82,7 @@ useEffect(()=>{
 
 </motion.div>
        
-       <div className='  justify-items-end rounded-full  '><motion.img src={image} alt='frontimage' initial={{ x: 300, opacity: 0 }}     // Start 300px to the right
+      <div className='  justify-items-end rounded-full  '><motion.img src="" alt='image' initial={{ x: 300, opacity: 0 }} //this is persons image    // Start 300px to the right
         animate={{ x: 0, opacity: 1 }}       // Animate to original position
         transition={{
           duration: 1.5,
