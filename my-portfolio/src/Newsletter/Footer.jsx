@@ -9,14 +9,19 @@ const Footer = () => {
         <div className="text-center">
 
         <div className='flex justify-center gap-2 mb-4 ' >
-        <img className="transition-transform duration-300 transform hover:scale-125" src={gitfooter} alt='github' />
-        <img className=" w-[60px] h-[60px] transition-transform duration-300 transform hover:scale-125" src={Footerimage} alt="linkin"/>        
+          <a href="https://github.com/JIITES" >
+                  <img className="transition-transform duration-300 transform hover:scale-125" src={gitfooter}   alt='github' />
+          </a>
+          <a href="https://www.linkedin.com/in/jitheshdr" >
+                  <img className=" w-[60px] h-[60px] transition-transform duration-300 transform hover:scale-125" src={Footerimage} alt="linkin"/>        
+
+          </a>
 
         </div>
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Your Company. All rights reserved.
         </p>
-        <p className="mt-2">Made with ❤️ by Jithesh</p>
+        <p className="mt-2">Made  by Jithesh</p>
       </div>
     </footer>
 

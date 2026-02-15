@@ -75,7 +75,7 @@ useEffect(()=>{
         <a href="https://github.com/JIITES" target="_blank" rel="noopener noreferrer">
           <img className="bg-amber-50 w-[40px] h-[40px] "src={githubIcon} alt="GitHub"  />
         </a>
-        <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/jitheshdr" target="_blank" rel="noopener noreferrer">
           <img className="w-[40px] h-[40px]" src={Linkdin} alt="LinkedIn"  />
         </a>
       </div>

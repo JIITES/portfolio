@@ -14,6 +14,8 @@ import Clock from "./Digtalclock.png";
 import W from "./Weathers.jpg"
 import Shop from "./Shopcart.png";
 
+import Voting from "./votingimage.jpg"
+
 export const Assets =[
     {
         name: "Express.js",
@@ -87,7 +89,14 @@ export const projects = [
     description: "A weather application that provides current weather information using React.",
     image:W,
     liveLink: "https://weatherjithesh.vercel.app/",
-    codeLink: "https://github.com/JIITES/Weather"}
+    codeLink: "https://github.com/JIITES/Weather"},
+    {
+        title: "Votting Website", 
+        description: "A voting website built with React and Node.js  for votting.",
+        image:Voting,
+        liveLink: "https://vottapp-b-and-f.vercel.app/",
+        codeLink: "https://github.com/JIITES/vottapp-b-and-f"
+    }
 ];
 
 export const SmallP=[{
