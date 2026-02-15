@@ -74,7 +74,7 @@ export const projects = [
     title: "GreenCart Grocery Store",
     description: "An e-commerce grocery store built with React, Tailwind, and Node.js.",
     image: Cart,
-    liveLink: "https://greencart.vercel.app",
+    liveLink: "https://greencart-dc76.vercel.app/",
     codeLink: "https://github.com/JIITES/Greencaert",
   },
   {
